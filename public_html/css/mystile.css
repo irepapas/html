@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 feb 2021, 11:29:49
+    Author     : tss
+*/
+
+/*per chiamare le classi di stile chiamale con il punto 
+*/
+.tblstnd{
+    width: 90%;
+    max-height: 400px;
+    
+}
+table, th, td{
+    border: 2px; 
+    border-color: slategray;
+    border-style: groove;
+    border-collapse: collapse;
+    
+}
+.myfont{
+    font-family: Arial,Courier;
+    font-size: 30px;
+    font-style: italic;
+    color: graytext;
+}
+#tab1{
+    color: olive;
+    background-color: lightsteelblue;
+}
+#tab2{
+    color: burlywood;
+    background-color: snow;
+    font-family: fantasy;
+}
+#age1{
+    color: darkgreen;
+}
+
+#tab1 td {
+    font-weight: bold;
+}
+/* responsivo? lavorare in %
+*/
+.cbig{
+    width: 40%;
+}
+.csmall{
+    width: 20%;
+}
